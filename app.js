@@ -37,13 +37,6 @@ const PAGE_ACCESS_TOKEN =
   process.env.PAGE_ACCESS_TOKEN :
   config.get('pageAccessToken');
 
-// URL where the app is running (include protocol). Used to point to scripts and 
-// assets located at this address. 
-const PAGE_ID = 
-  (process.env.PAGE_ID) ?
-  process.env.PAGE_ID :
-  config.get('pageID');
-
 if (!(APP_SECRET && VERIFY_TOKEN && PAGE_ACCESS_TOKEN && PAGE_ID)) {
   console.error("Missing config values");
   process.exit(1);
