@@ -1,0 +1,25 @@
+{
+  "name": "fb-node-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshin49/fb-node-example.git"
+  },
+  "author": "Jay Shin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jshin49/fb-node-example/issues"
+  },
+  "homepage": "https://github.com/jshin49/fb-node-example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "config": "^1.25.1",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  }
+}
